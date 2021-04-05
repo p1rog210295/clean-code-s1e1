@@ -15,21 +15,33 @@
     <main>
         <h3 class="title title-new-task">Add Item</h3>
         <div class="task-row-wrapper">
-            <input id="new-task" class="task task-input new-task-input" type="text"><button id="add-task-btn" class="new-task-btn">Add</button>
+            <input id="new-task" class="task task-input new-task-input" type="text">
+            <button id="add-task-btn" class="new-task-btn">Add</button>
         </div>
         <h3 class="title">Todo</h3>
         <ul id="incomplete-tasks" class="task-list">
-            <li class="line"><input class="line-checkbox" type="checkbox"><input type="text" class="task task-input"><label class="task">Pay Bills</label>
-                <button class="edit-btn">Edit</button><button class="delete-btn"><img class="delete-btn-img" src="./remove.svg"></button>
-            </li>
-            <li class="line edit-mode"><input class="line-checkbox" type="checkbox"><label class="task edit-mode-label">Go Shopping</label>
-                <input type="text" value="Go Shopping" class="task task-input"><button class="edit-btn">Save</button>
+            <li class="line">
+                <input class="line-checkbox" type="checkbox">
+                <input type="text" class="task task-input">
+                <label class="task">Pay Bills</label>
+                <button class="edit-btn">Edit</button>
                 <button class="delete-btn"><img class="delete-btn-img" src="./remove.svg"></button>
+            </li>
+            <li class="line edit-mode">
+                <input class="line-checkbox" type="checkbox">
+                <label class="task edit-mode-label">Go Shopping</label>
+                <input type="text" value="Go Shopping" class="task task-input">
+                <button class="edit-btn">Save</button>
+                <button class="delete-btn"><img class="delete-btn-img" src="./remove.svg"></button>
+            </li>
         </ul>
         <h3 class="title">Completed</h3>
         <ul id="completed-tasks" class="task-list completed-tasks-list">
-            <li class="line"><input class="line-checkbox" type="checkbox" checked><label class="task">See the Doctor</label>
-                <input type="text" class="task task-input"><button class="edit-btn">Edit</button>
+            <li class="line">
+                <input class="line-checkbox" type="checkbox" checked>
+                <label class="task">See the Doctor</label>
+                <input type="text" class="task task-input">
+                <button class="edit-btn">Edit</button>
                 <button class="delete-btn"><img class="delete-btn-img" src="./remove.svg"></button>
             </li>
         </ul>
